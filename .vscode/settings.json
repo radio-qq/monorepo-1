@@ -1,0 +1,41 @@
+{
+  // 开启预览模式下，打开文件不会关闭当前
+  "workbench.editor.enablePreview": false,
+
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+
+  // 使用prettier格式化vue文件
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 使用prettier格式化js文件
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 使用prettier格式化ts文件
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // turbo快速打印console.log配置
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.logMessagePrefix": "",
+
+  // 使用prettier格式化less文件
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 使用prettier格式化json文件
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

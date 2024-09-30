@@ -1,0 +1,5 @@
+packages:  
+  - docs
+  - generators
+  - packages/*
+  - webs

@@ -1,0 +1,22 @@
+.vite-ssg-temp
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# lock
+yarn.lock
+pnpm-lock.yaml
+
+*.log
+
+# components.d.ts
+auto-imports.d.ts
+.eslintrc-auto-import.json
+
+
+
+docs/.vitepress/cache
+docs/.vitepress/dist

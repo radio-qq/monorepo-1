@@ -1,0 +1,35 @@
+@use "../../../theme/index.scss" as *;
+
+@include b(status) {
+  @include e(circle) {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    &--primary {
+      background-color: $color-primary;
+    }
+
+    &--success {
+      background-color: $color-success;
+    }
+
+    &--info {
+      background-color: $color-info;
+    }
+
+    &--warning {
+      background-color: $color-warning;
+    }
+
+    &--danger {
+      background-color: $color-danger;
+    }
+  }
+
+  @include e(text) {
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+}
